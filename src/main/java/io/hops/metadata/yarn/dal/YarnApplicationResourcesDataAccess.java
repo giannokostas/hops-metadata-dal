@@ -11,6 +11,8 @@ public interface YarnApplicationResourcesDataAccess<T> extends EntityDataAccess 
 
     void add(T YarnApplicationResources) throws StorageException;
 
+    void addAll(Collection<YarnApplicationResources> toBeAdded) throws StorageException;
+
     void removeAll(Collection<YarnApplicationResources> killed)
             throws StorageException;
 
