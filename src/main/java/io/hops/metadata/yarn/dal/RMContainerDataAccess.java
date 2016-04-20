@@ -20,9 +20,7 @@ import io.hops.metadata.common.EntityDataAccess;
 import io.hops.metadata.yarn.entity.RMContainer;
 
 import java.util.Collection;
-import java.util.List;
 import java.util.Map;
-import java.util.concurrent.LinkedBlockingQueue;
 
 public interface RMContainerDataAccess<T> extends EntityDataAccess {
 

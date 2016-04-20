@@ -588,8 +588,7 @@ public class TablesDef {
 
   public static interface YarnApplicationResourcesTableDef {
     public static final String TABLE_NAME = "yarn_application_resources";
-    public static final String INODE_ID = "inode_id";
-    public static final String NAME = "name";
+    public static final String APP_ID = "app_id";
     public static final String ALLOCATED_MB = "allocated_mb";
     public static final String ALLOCATED_VCORES = "allocated_vcores";
   }
